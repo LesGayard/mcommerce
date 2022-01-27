@@ -7,18 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mproduits" />
-        <module name="mcommandes" />
         <module name="mpaiement" />
+        <module name="clientui" />
+        <module name="mcommandes" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="clientui" target="1.8" />
       <module name="mcommandes" target="1.8" />
       <module name="mpaiement" target="1.8" />
-      <module name="mproduits" target="1.8" />
+      <module name="mproduits" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="clientui" options="-parameters" />
       <module name="mcommandes" options="-parameters" />
       <module name="mpaiement" options="-parameters" />
       <module name="mproduits" options="-parameters" />
