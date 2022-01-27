@@ -16,7 +16,7 @@
       <module name="clientui" target="1.8" />
       <module name="mcommandes" target="1.8" />
       <module name="mpaiement" target="1.8" />
-      <module name="mproduits" target="11" />
+      <module name="mproduits" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
