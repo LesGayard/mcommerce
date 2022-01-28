@@ -11,9 +11,9 @@ import java.util.List;
 public interface MicroserviceProduitProxy {
 
     @GetMapping(value = "/Produits")
-    List<ProductBean> listeDesProduits();
+    public List<ProductBean> listeDesProduits();
 
     @GetMapping( value = "/Produits/{id}")
-    ProductBean recupererUnProduit(@PathVariable("id") int id);
+    public ProductBean recupererUnProduit(@PathVariable("id") int id);
 
 }
