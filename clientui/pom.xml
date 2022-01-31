@@ -53,6 +53,12 @@
 			<artifactId>bootstrap</artifactId>
 			<version>4.0.0-2</version>
 		</dependency>
+		<dependency>
+			<groupId>com.mproduits</groupId>
+			<artifactId>mproduits</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
 
 	</dependencies>
 
