@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/microservice-commandes/pom.xml" />
         <option value="$PROJECT_DIR$/../clientui/pom.xml" />
         <option value="$PROJECT_DIR$/clientui/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server-repo/pom.xml" />
       </list>
     </option>
   </component>
