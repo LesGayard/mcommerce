@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/../clientui/pom.xml" />
         <option value="$PROJECT_DIR$/clientui/pom.xml" />
         <option value="$PROJECT_DIR$/config-server-repo/pom.xml" />
+        <option value="$PROJECT_DIR$/../config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$USER_HOME$/Downloads/mcommerce-ExternalisationConfig/config-server/pom.xml" />
       </list>
     </option>
   </component>
